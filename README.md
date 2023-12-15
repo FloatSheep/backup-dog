@@ -1,8 +1,8 @@
 # About this project
 
-This is a rust project for GPT programming.
+This is a rust project.
 
-If you want to use it for automatic backup, you may also need a watcher-helper.
+If you want to use it for automatic backup, you may also need a watcher-helper(Not developed yet).
 
 ## Use method
 
