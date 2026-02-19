@@ -1,1 +1,16 @@
-Nothing should be ignored since only a Rust source file (`watcher_helper.rs`) was added, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files were included in the changes.
+```
+# Environment
+.env
+.env.local
+.env.*
+
+# Dependencies
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+```
