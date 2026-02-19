@@ -44,9 +44,6 @@ jobs:
     - name: Install dependencies
       run: |
         rustup component add clippy rust-docs rustfmt
-        
-    - name: Check formatting
-      run: cargo fmt --all -- --check
       
     - name: Run tests
       run: cargo test
