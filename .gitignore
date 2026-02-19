@@ -1,4 +1,1 @@
-/target
-*.exe
-/test
-/to
+Nothing should be ignored since only a Rust source file (`watcher_helper.rs`) was added, which is a source code file that should be tracked in version control. No build artifacts, dependencies, or temporary files were included in the changes.
